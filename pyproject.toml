@@ -18,13 +18,13 @@ dependencies = [
     "roma",
     "gradio",
     "matplotlib",
-    "tqdm,
+    "tqdm",
     "opencv-python",
     "scipy",
     "einops",
     "trimesh", 
     "tensorboard",
-    "pyglet<2"
+    "pyglet==1.5.28"
 ]
 
 [project.urls]
