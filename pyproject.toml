@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "DUST3R"
+version = "1.0.0"
+description = "DUSt3R: Geometric 3D Vision Made Easy"
+readme = "README.md"
+requires-python = ">=3.8.0"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python",
+]
+dependencies = [
+    "torch",
+    "torchvision",
+    "roma",
+    "gradio",
+    "matplotlib",
+    "tqdm,
+    "opencv-python",
+    "scipy",
+    "einops",
+    "trimesh", 
+    "tensorboard",
+    "pyglet<2"
+]
+
+[project.urls]
+"website" = "https://github.com/zhaoyang-lv/dust3r"
+
+[tool.setuptools]
+packages = ["dust3r"]
